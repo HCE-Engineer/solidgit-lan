@@ -1,0 +1,34 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+
+# Settings, logs, session recordings and device identity — machine-specific, never shared.
+veri/
+*.log
+
+# Built packages ("Sürüm oluştur").
+dagitim/
+
+# Working notes not meant for the public repository.
+for-ai/
+
+# Editors and tools.
+.claude/
+.vscode/
+.idea/
+
+# A SolidGit workspace's own store, should one ever be initialised inside this repo.
+.solidgit/
+
+# SolidWorks lock, backup and temporary files.
+~$*
+*.bak
+*.swbak
+*.tmp
+config.json
