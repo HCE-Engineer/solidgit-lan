@@ -166,7 +166,7 @@ sequenceDiagram
     A->>H: Kilit iste: govde.sldprt
     H-->>A: Verildi — herkesin listesinde görünür
     A->>H: Yeni kayıt + değişen dosyalar
-    Note over H: Dosyaları değişmez; "⬇ 1 yeni değişiklik — al"
+    Note over H: Dosyaları değişmez — "⬇ 1 yeni değişiklik — al"
 ```
 
 Kod üç katmandır ve bağımlılık tek yönlüdür: `core` ne ağı ne arayüzü bilir — bu yüzden bütün
